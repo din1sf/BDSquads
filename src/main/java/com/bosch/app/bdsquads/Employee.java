@@ -1,3 +1,5 @@
+package com.bosch.app.bdsquads;
+
 public class Employee {
   // Fields
   private final String associateGID;
@@ -116,7 +118,7 @@ public class Employee {
   }
 
   public String toString() {
-    return "Employee{" +
+    return "com.bosch.app.bdsquads.Employee{" +
         "associateGID='" + associateGID + '\'' +
         ", firstName='" + firstName + '\'' +
         ", lastName='" + lastName + '\'' +
@@ -244,7 +246,7 @@ public class Employee {
       return this;
     }
 
-    // Build method to create Employee instance
+    // Build method to create com.bosch.app.bdsquads.Employee instance
     public Employee build() {
       return new Employee(this);
     }

@@ -1,3 +1,5 @@
+package com.bosch.app.bdsquads;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -87,7 +89,7 @@ public class BVEmployeeNode {
 
   @Override
   public String toString() {
-    return "BVNode{" +
+    return "com.bosch.app.bdsquads.BVNode{" +
         "category='" + category + '\'' +
         ", ID='" + ID + '\'' +
         ", name='" + name + '\'' +
