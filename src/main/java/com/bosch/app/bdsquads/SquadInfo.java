@@ -1,3 +1,5 @@
+package com.bosch.app.bdsquads;
+
 public class SquadInfo {
 
   private String bv1Category;
@@ -183,7 +185,7 @@ public class SquadInfo {
 
   @Override
   public String toString() {
-    return "SquadInfo{" +
+    return "com.bosch.app.bdsquads.SquadInfo{" +
         "bv1Category='" + bv1Category + '\'' +
         ", bv1Name='" + bv1Name + '\'' +
         ", bv1ID='" + bv1ID + '\'' +

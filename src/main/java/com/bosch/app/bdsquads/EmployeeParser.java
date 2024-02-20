@@ -1,3 +1,5 @@
+package com.bosch.app.bdsquads;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -35,7 +37,7 @@ public class EmployeeParser {
           values[i] = values[i].trim();
         }
 
-        // Create Employee.Builder instance
+        // Create com.bosch.app.bdsquads.Employee.Builder instance
         Employee.Builder builder = new Employee.Builder(values[0], values[1], values[2]);
 
         // Set optional fields
@@ -68,7 +70,7 @@ public class EmployeeParser {
         if (values.length > 15) {
           builder.requestSquad1(values[15]);
         }
-        // Build Employee object and add to list
+        // Build com.bosch.app.bdsquads.Employee object and add to list
         employees.add(builder.build());
       }
 
@@ -166,7 +168,7 @@ public class EmployeeParser {
         .collect(Collectors.toList());
 
 //    // Print or process the list of employees
-//    for (Employee emp : list) {
+//    for (com.bosch.app.bdsquads.Employee emp : list) {
 //      System.out.println(emp);
 //    }
 
