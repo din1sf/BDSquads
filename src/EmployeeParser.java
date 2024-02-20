@@ -161,7 +161,7 @@ public class EmployeeParser {
 //        .filter(e -> e.getBvPlus1ID().equals("Domain_SoftwareEngineering"))
 //        .filter(e -> e.getBvPlus2Name().equals("Backend Development 1"))
 //        .filter(e -> e.getRequestSquad1().equals("ALX-MOB_T02_Sq134"))
-        .filter(e -> e.getRequestSquad1().equals("ALX-TRC_T10_Sq157"))
+        // .filter(e -> e.getRequestSquad1().equals("ALX-TRC_T10_Sq157"))
 
         .collect(Collectors.toList());
 

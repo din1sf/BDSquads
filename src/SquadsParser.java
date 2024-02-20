@@ -114,9 +114,9 @@ public class SquadsParser {
 
     // filtered
     List<SquadInfo> list = dataList.stream()
-        .filter(s -> s.getBv1ID() != null && !s.getBv1ID().isEmpty())
+        // .filter(s -> s.getBv1ID() != null && !s.getBv1ID().isEmpty())
 //        .filter(s -> s.getBv2ID().equals("ALX-MOB_T02"))
-        .filter(s -> s.getBv3ID().equals("ALX-MOB_T02_Sq134"))
+        // .filter(s -> s.getBv3ID().equals("ALX-MOB_T02_Sq134"))
         .collect(Collectors.toList());
 
     // tree structure
